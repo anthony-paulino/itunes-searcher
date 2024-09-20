@@ -1,0 +1,4 @@
+load_dotenv
+requests
+groq
+pydub
