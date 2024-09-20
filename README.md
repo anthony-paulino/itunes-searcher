@@ -13,18 +13,18 @@ Search parameters:
 ## Installation
 
 1. Install all of the required python libraries, run the following command 
-'''sh 
+```sh
 pip install -r requirements.txt
-'''
+```
 2. Download ffmpeg from https://www.gyan.dev/ffmpeg/builds/#release-builds, (if your on windows "ffmpeg-release-full.7z".) Extract the zip folder and rename the folder to "FFmpeg" and place it in "C:\"
 3. Run cmd as administrator, and run 
-'''sh
-"setx /m PATH sh'''C:\ffmpeg\bin;%PATH%"
-'''
+```sh
+setx /m PATH C:\ffmpeg\bin;%PATH%
+```
 4. Verify ffmpeg Installation by running the following command 
-''''sh
+```sh
  ffmpeg -version
- '''
+ ```
 5. Set your groq api key to an environment variable called "GROQ_API_KEY". Can go to the .env and  set your api key.
 
 ## Future Improvements:
